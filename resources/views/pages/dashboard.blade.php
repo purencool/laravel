@@ -14,4 +14,13 @@
             </div>
         </div>
     </div>
+    <!-- comment -->
+    <div class="">
+        <div class="">
+            <x-maps-leaflet
+             :centerPoint="['lat' => -37.020100, 'long' => 144.964600]"
+             :zoomLevel="7"
+             :markers="[['lat' => -37.020100, 'long' => 144.964600],['lat' => -37.820100, 'long' => 144.964600] ]"></x-maps-leaflet>
+        </div>
+    </div>
 </x-app-layout>
